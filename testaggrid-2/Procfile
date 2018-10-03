@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/testaggrid-2.jar clojure.main -m testaggrid-2.server
