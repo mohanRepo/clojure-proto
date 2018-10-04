@@ -60,12 +60,17 @@
 
 (def colsjs  (clj->js [ {:headerName "Make", :field "make"}  ]) )
 (def rowsjs  (clj->js  [ {:make "Toyota"} ]) )
-(def cols   [ {:headerName "Make", :field "make"}  ])
-(def rows   [ {:make "Toyota"} {:make "BMW"}  ])
+;;(def cols   [ {:headerName "Make", :field "make"}  ])
+;;(def rows   [ {:make "Toyota"} {:make "BMW"}  ])
+
+(def cols [ {:headerName "Make", :field "make"}, {:headerName "Model", :field "model"}, {:headerName "Price", :field "price"} ])
+(def rows [ {:make "Toyota", :model "Celica", :price 35000}, {:make "Ford", :model "Mondeo", :price 32000}, {:make "Porsche", :model "Boxter", :price 72000}])
+;;columnDefs: [ {headerName: "Make", field: "make"}, {headerName: "Model", field: "model"}, {headerName: "Price", field: "price"} ]
+;;rowData: [ {make: "Toyota", model: "Celica", price: 35000}, {make: "Ford", model: "Mondeo", price: 32000}, {make: "Porsche", model: "Boxter", price: 72000}]
 
 (defn home-page []
   [:div [:h2 "Welcome to reagent-aggrid change"]
-   [:div {:className "ag-theme-balham" :style {:height 200 :width 200 :color "red"}}
+   [:div {:className "ag-theme-balham" :style {:height 200 :width 20000 :color "red"}}
     [ag-adapter {:columnDefs  cols :rowData rows}]]
 
    [:div [:a {:href "/about"} "go to about page"]]])
