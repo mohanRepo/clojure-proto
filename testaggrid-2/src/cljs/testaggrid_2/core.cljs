@@ -25,9 +25,8 @@
 
 (def t2 (new js/GoldenLayout js-object))
 
-(defn myfun [container , componentState]
-  (let [c (.getElement() container)]
-    (.text c "test")) )
+(defn myfun []
+  [:div [:h2 "Hello is it done pls"]])
 
   ;;myLayout.registerComponent( 'testComponent', function( container, componentState )
 
