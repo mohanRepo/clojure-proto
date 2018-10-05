@@ -46,23 +46,23 @@
   {:builds {
             :app
             {:source-paths ["src/cljs" "src/cljc" "env/dev/cljs"]
-             :figwheel {:on-jsload "testaggrid-2.core/mount-root"}
+             :figwheel     {:on-jsload "testaggrid-2.core/mount-root"}
              :compiler
-             {:main "testaggrid-2.dev"
-              :asset-path "/js/out"
-              :output-to "target/cljsbuild/public/js/app.js"
-              :source-map "target/cljsbuild/public/js/app.js.map"
-              :output-dir "target/cljsbuild/public/js/out"
-              :optimizations :whitespace
-              :foreign-libs [
-                             {:file "jquery-3.3.1.js"
-                              :provides ["org.jquery.jQuery"]}
-                              {:file "gl/goldenlayout.js"
-                              :provides ["js.goldenlayout"]
-                              :requires ["org.jquery.jQuery"]}]
-              :externs ["jquery-3.3.1.js" "d3-externs.js"]}}
-
-
+                           {:main          "testaggrid-2.dev"
+                            :asset-path    "/js/out"
+                            :output-to     "target/cljsbuild/public/js/app.js"
+                            :source-map "target/cljsbuild/public/js/app.js.map"
+                            :output-dir    "target/cljsbuild/public/js/out"
+                            :optimizations :whitespace
+                            :foreign-libs  [
+                                            {:file     "jquery-3.3.1.js"
+                                             :provides ["org.jquery.jQuery"]}
+                                            {:file     "gl/goldenlayout.js"
+                                             :provides ["js.goldenlayout"]
+                                             :requires ["org.jquery.jQuery"]}]
+                            ;; :externs ["jquery-3.3.1.js" "d3-externs.js"]
+                            }
+             }
 
             }
    }
