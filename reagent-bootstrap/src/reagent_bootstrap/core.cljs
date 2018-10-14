@@ -2,7 +2,8 @@
     (:require
       [reagent.core :as r]
       [baking-soda.core :as b]
-      [reagent-bootstrap.Nav.header-bar :as nav]))
+      [reagent-bootstrap.Nav.header-bar :as nav]
+      [reagent-bootstrap.tab.tab-content :as t]))
 
 ;; -------------------------
 ;; Views
@@ -37,6 +38,7 @@
        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]
 
       [b/ModalFooter
+
        [b/Button {:color    "primary"
                   :on-click #(toggle! ratom)}
         "Do Something"]
@@ -62,8 +64,15 @@
   )
 
 (defn page-body []
-  [modal-example app-state {:button-label "Click Me"
-                            :class        "mymodal"}]
+
+      [:div  [modal-example app-state {:button-label "Click Me"
+                                       :class        "mymodal"}]
+       [:div {:id "tabs1" :style {:height "auto" :width "auto"}}]
+
+       ]
+
+
+
   )
 (defn page[]
   [:div
@@ -76,7 +85,9 @@
 
 (defn mount-root []
   (r/render [page]
-            (.getElementById js/document "app")))
+            (.getElementById js/document "app"))
+      (t/tab-content)
+      )
 
 (defn mount-root-1 []
   (r/render [modal-example app-state {:button-label "Click Me"
