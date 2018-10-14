@@ -1,0 +1,2433 @@
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:10  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  14  (println "mhan")
+  15  
+  16  (println js-object)
+  17  
+  18  (def t2 (reagent/adapt-react-class (new js/GoldenLayout js-object)) )
+               ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  19  
+  20  ;;(.. js/object -prop1 -prop2 -prop3) ;; JS output: object.prop1.prop2.prop3;
+  21  ;;(aget js/object "prop1" "prop2" "prop3") ;; JS output: object["prop1"]["prop2"]["prop3"];
+  22  ;;(libraryCall (fn [] (this-as my-this (.log js/console my-this))))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:10  ----
+
+  Use of undeclared Var reagent/adapt-react-class
+
+  14  (println "mhan")
+  15  
+  16  (println js-object)
+  17  
+  18  (def t2 (reagent/adapt-react-class (new js/GoldenLayout js-object)) )
+               ^--- Use of undeclared Var reagent/adapt-react-class
+  19  
+  20  ;;(.. js/object -prop1 -prop2 -prop3) ;; JS output: object.prop1.prop2.prop3;
+  21  ;;(aget js/object "prop1" "prop2" "prop3") ;; JS output: object["prop1"]["prop2"]["prop3"];
+  22  ;;(libraryCall (fn [] (this-as my-this (.log js/console my-this))))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:37  column:1  ----
+
+  myfun at line 24 is being replaced
+
+  33    (println "I am in home page")
+  34    (.registerComponent t2 "test-component" myfun)
+  35    (.init t2))
+  36  
+  37  (defn myfun []
+      ^--- myfun at line 24 is being replaced
+  38    (println "...£££ i am called")
+  39    [:div [:h2 "Hello is it done pls"]])
+  40  
+  41  (defn home-page-1 []
+  42    [:div [:h2 "Welcome to Reagent"]])
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 4.095 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:37  column:1  ----
+
+  myfun at line 24 is being replaced
+
+  33    (println "I am in home page")
+  34    (.registerComponent t2 "test-component" myfun)
+  35    (.init t2))
+  36  
+  37  (defn myfun []
+      ^--- myfun at line 24 is being replaced
+  38    (println "...£££ i am called")
+  39    [:div [:h2 "Hello is it done pls"]])
+  40  
+  41  (defn home-page-1 []
+  42    [:div [:h2 "Welcome to Reagent"]])
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.101 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:39  column:1  ----
+
+  myfun at line 26 is being replaced
+
+  35    (println "I am in home page")
+  36    (.registerComponent t2 "test-component" myfun)
+  37    (.init t2))
+  38  
+  39  (defn myfun []
+      ^--- myfun at line 26 is being replaced
+  40    (println "...£££ i am called")
+  41    [:div [:h2 "Hello is it done pls"]])
+  42  
+  43  (defn home-page-1 []
+  44    [:div [:h2 "Welcome to Reagent"]])
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.107 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.598 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Figwheel: Can't open  ("src/reagent_goldenlayout/core.cljs" 39 1) No :open-file-command supplied in the config.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.918 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.877 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.689 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.966 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.76 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.39 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:33 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 33, col 44] Unmatched delimiter ).
+
+  31  (def fun2 (r/create-class
+  32              {:component-did-mount
+  33               (fn [] (println "I mounted")))
+                   C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 33, col 44] Unmatched delimiter ).
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.554 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:56 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 56, col 1] Unexpected EOF while reading item 7 of list, starting at line 31 and column 1.
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.292 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:56 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 56, col 1] Unexpected EOF while reading item 7 of list, starting at line 31 and column 1.
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.997 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.605 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.076 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.828 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.774 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.894 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.718 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.724 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.815 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.862 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.813 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.719 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.786 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.672 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.876 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.807 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:43  column:1  ----
+
+  fun2 at line 22 is being replaced
+
+  39    (println "...£££ i am called")
+  40    (println (fn [] (this-as my-this (.. my-this -props -label))))
+  41    [:h2 "Something"])
+  42  
+  43  (def fun2 (r/create-class
+      ^--- fun2 at line 22 is being replaced
+  44              {:render
+  45               (fn [this]
+  46                 ;;(println (this-as my-this (.-props my-this)))
+  47  
+  48                 [:h1 (.. this -props -label) ])}))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 3.512 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.406 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.969 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.717 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.744 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.399 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.305 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.276 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.407 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.276 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 114] The map literal starting with :name on line 25 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.313 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 117] The map literal starting with :name on line 25 column 48 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                 { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                     C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 117] The map literal starting with :name on line 25 column 48 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                 { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                 { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                 { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.277 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:25 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 117] The map literal starting with :name on line 25 column 48 contains 9 form(s). Map literals must contain an even number of forms.
+
+  23  {:get-initial-state (fn [this]
+  24                        {:users [
+  25                                 { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                     C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 25, col 117] The map literal starting with :name on line 25 column 48 contains 9 form(s). Map literals must contain an even number of forms.
+  26                                 { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  27                                 { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  28                                 { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.354 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:35 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 35, col 114] The map literal starting with :name on line 35 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  33  {:get-initial-state (fn [this]
+  34                        {:users [
+  35                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 35, col 114] The map literal starting with :name on line 35 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  36                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  37                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  38                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.288 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:35 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 35, col 114] The map literal starting with :name on line 35 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  33  {:get-initial-state (fn [this]
+  34                        {:users [
+  35                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 35, col 114] The map literal starting with :name on line 35 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  36                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  37                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  38                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.383 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:37 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 37, col 114] The map literal starting with :name on line 37 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  35  {:get-initial-state (fn [this]
+  36                        {:users [
+  37                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 37, col 114] The map literal starting with :name on line 37 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  38                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  39                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  40                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.298 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:37 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 37, col 114] The map literal starting with :name on line 37 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  35  {:get-initial-state (fn [this]
+  36                        {:users [
+  37                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 37, col 114] The map literal starting with :name on line 37 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  38                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  39                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  40                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.374 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:38 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 38, col 114] The map literal starting with :name on line 38 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  36  {:get-initial-state (fn [this]
+  37                        {:users [
+  38                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 38, col 114] The map literal starting with :name on line 38 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  39                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  40                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  41                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.291 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:38 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 38, col 114] The map literal starting with :name on line 38 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  36  {:get-initial-state (fn [this]
+  37                        {:users [
+  38                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 38, col 114] The map literal starting with :name on line 38 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  39                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  40                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  41                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.422 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:41 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  39  {:get-initial-state (fn [this]
+  40                        {:users [
+  41                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  42                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  43                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  44                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.25 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:41 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  39  {:get-initial-state (fn [this]
+  40                        {:users [
+  41                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  42                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  43                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  44                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.451 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:34 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 34, col 55] The map literal starting with :onClick on line 34 column 44 contains 1 form(s). Map literals must contain an even number of forms.
+
+  32  :render
+  33                     (fn [this]
+  34                       [:li {:onClick } ])
+                           C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 34, col 55] The map literal starting with :onClick on line 34 column 44 contains 1 form(s). Map literals must contain an even number of forms.
+  35  }))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.316 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:34 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 34, col 55] The map literal starting with :onClick on line 34 column 44 contains 1 form(s). Map literals must contain an even number of forms.
+
+  32  :render
+  33                     (fn [this]
+  34                       [:li {:onClick } ])
+                           C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 34, col 55] The map literal starting with :onClick on line 34 column 44 contains 1 form(s). Map literals must contain an even number of forms.
+  35  }))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.371 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:41 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  39  {:get-initial-state (fn [this]
+  40                        {:users [
+  41                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  42                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  43                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  44                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.312 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:41 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  39  {:get-initial-state (fn [this]
+  40                        {:users [
+  41                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 41, col 114] The map literal starting with :name on line 41 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  42                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  43                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  44                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.436 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:46 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 46, col 114] The map literal starting with :name on line 46 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  44  {:get-initial-state (fn [this]
+  45                        {:users [
+  46                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 46, col 114] The map literal starting with :name on line 46 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  47                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  48                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  49                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.286 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:46 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 46, col 114] The map literal starting with :name on line 46 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  44  {:get-initial-state (fn [this]
+  45                        {:users [
+  46                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 46, col 114] The map literal starting with :name on line 46 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  47                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  48                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  49                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.583 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:53 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 53, col 114] The map literal starting with :name on line 53 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  51  {:get-initial-state (fn [this]
+  52                        {:users [
+  53                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 53, col 114] The map literal starting with :name on line 53 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  54                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  55                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  56                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.259 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:53 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 53, col 114] The map literal starting with :name on line 53 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  51  {:get-initial-state (fn [this]
+  52                        {:users [
+  53                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 53, col 114] The map literal starting with :name on line 53 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  54                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  55                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  56                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.468 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:45  column:45  ----
+
+  Unknown dot form of (. nil setstate nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()]
+
+  43                                                 (.ff gl-ev "user-select" (.setUser this))))
+  44                     :setUser (fn [ud]
+  45                                (this-as this (.setstate
+                                                  ^--- Unknown dot form of (. nil setstate nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()]
+  46  
+  47                                                )))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.329 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:45  column:45  ----
+
+  Unknown dot form of (. nil setstate nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()]
+
+  43                                                 (.ff gl-ev "user-select" (.setUser this))))
+  44                     :setUser (fn [ud]
+  45                                (this-as this (.setstate
+                                                  ^--- Unknown dot form of (. nil setstate nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()]
+  46  
+  47                                                )))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.589 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:58 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 58, col 114] The map literal starting with :name on line 58 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  56  {:get-initial-state (fn [this]
+  57                        {:users [
+  58                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 58, col 114] The map literal starting with :name on line 58 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  59                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  60                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  61                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.292 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:58 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 58, col 114] The map literal starting with :name on line 58 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  56  {:get-initial-state (fn [this]
+  57                        {:users [
+  58                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 58, col 114] The map literal starting with :name on line 58 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  59                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  60                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  61                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.33 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:49  column:32  ----
+
+  let requires an even number of forms in binding vector
+
+  47                     :render (fn [this]
+  48                               ((if (.state this)
+  49                                 (let [imgUrl ])
+                                     ^--- let requires an even number of forms in binding vector
+  50                                 ())))
+  51  
+  52                     }))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.292 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:49  column:32  ----
+
+  let requires an even number of forms in binding vector
+
+  47                     :render (fn [this]
+  48                               ((if (.state this)
+  49                                 (let [imgUrl ])
+                                     ^--- let requires an even number of forms in binding vector
+  50                                 ())))
+  51  
+  52                     }))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.461 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:60 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 60, col 114] The map literal starting with :name on line 60 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  58  {:get-initial-state (fn [this]
+  59                        {:users [
+  60                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 60, col 114] The map literal starting with :name on line 60 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  61                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  62                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  63                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.261 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:60 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 60, col 114] The map literal starting with :name on line 60 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  58  {:get-initial-state (fn [this]
+  59                        {:users [
+  60                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 60, col 114] The map literal starting with :name on line 60 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  61                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  62                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  63                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.545 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.297 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.385 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.281 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.442 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.341 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:64 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+
+  62  {:get-initial-state (fn [this]
+  63                        {:users [
+  64                                  { :name 'Jackson Turner', :street '217 Tawny End', :img 'men_1.jpg' },
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 64, col 114] The map literal starting with :name on line 64 column 45 contains 9 form(s). Map literals must contain an even number of forms.
+  65                                  { :name 'Megan Perry', :street '77 Burning Ramp', :img 'women_1.jpg' },
+  66                                  { :name 'Ryan Harris', :street '12 Hazy Apple Route', :img 'men_2.jpg' },
+  67                                  { :name 'Jennifer Edwards', :street '33 Maple Drive', :img 'women_2.jpg' },
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.925 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.667 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 3.715 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.116 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.334 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.947 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.75 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.878 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.973 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.928 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.085 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.993 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.736 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.876 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.367 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:76  column:30  ----
+
+  Wrong number of args (1) passed to: core/for
+
+  74  :render
+  75  (fn [this]
+  76    [:ul.userlist (for [user (.. this -state -users)]
+                      ^--- Wrong number of args (1) passed to: core/for
+  77                    
+  78                    )]
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.377 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.6 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.917 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.761 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.023 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.764 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:86 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 86, col 15] Unmatched delimiter }.
+
+  85   )
+  86  }))
+      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 86, col 15] Unmatched delimiter }.
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.046 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.563 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.077 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.553 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.915 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.793 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.832 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.826 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.797 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.787 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.732 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.828 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.719 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.858 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.88 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.781 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.759 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.76 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.623 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.672 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.88 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.696 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.839 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.727 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.785 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:25  column:13  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  21                                      (fn [this]
+  22                                        [:li (.. this -state -name)])
+  23                   }))
+  24  
+  25  (def state (reagent/atom  {:users  [
+                  ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  26                                      { :name "Jackson Turner" }]}
+  27  
+  28                            ))
+  29  
+  30  (def UserList (r/create-class
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:25  column:13  ----
+
+  Use of undeclared Var reagent/atom
+
+  21                                      (fn [this]
+  22                                        [:li (.. this -state -name)])
+  23                   }))
+  24  
+  25  (def state (reagent/atom  {:users  [
+                  ^--- Use of undeclared Var reagent/atom
+  26                                      { :name "Jackson Turner" }]}
+  27  
+  28                            ))
+  29  
+  30  (def UserList (r/create-class
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 2.441 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:25  column:13  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  21                                      (fn [this]
+  22                                        [:li (.. this -state -name)])
+  23                   }))
+  24  
+  25  (def state (reagent/atom  {:users  [
+                  ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  26                                      { :name "Jackson Turner" }]}
+  27  
+  28                            ))
+  29  
+  30  (def UserList (r/create-class
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:25  column:13  ----
+
+  Use of undeclared Var reagent/atom
+
+  21                                      (fn [this]
+  22                                        [:li (.. this -state -name)])
+  23                   }))
+  24  
+  25  (def state (reagent/atom  {:users  [
+                  ^--- Use of undeclared Var reagent/atom
+  26                                      { :name "Jackson Turner" }]}
+  27  
+  28                            ))
+  29  
+  30  (def UserList (r/create-class
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.28 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.733 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.547 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.801 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.688 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.692 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.707 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.722 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.708 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.698 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.63 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.578 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:37  column:37  ----
+
+  Wrong number of args (0) passed to cljs.core/set
+
+  33                                              { :name "Jackson Turner" }]}
+  34  
+  35                                    )
+  36               :component-did-mount (fn [this]
+  37                                      (set)
+                                          ^--- Wrong number of args (0) passed to cljs.core/set
+  38                                       (println "i was here")
+  39                                       (println (.. this -state -users))
+  40                                       )
+  41               :render
+  42               (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.854 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.376 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:37  column:43  ----
+
+  Can't call nil at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+
+  35                       )
+  36  :component-did-mount (fn [this]
+  37                         (set! ())
+                                   ^--- Can't call nil at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+  38                          (println "i was here")
+  39                          (println (.. this -state -users))
+  40                          )
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.493 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:37  column:43  ----
+
+  Can't call nil at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+
+  35                       )
+  36  :component-did-mount (fn [this]
+  37                         (set! ())
+                                   ^--- Can't call nil at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+  38                          (println "i was here")
+  39                          (println (.. this -state -users))
+  40                          )
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.83 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.537 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.728 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.613 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.722 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.39 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:37  column:37  ----
+
+  set! target must be a field or a symbol naming a var at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+
+  35                                    )
+  36               :component-did-mount (fn [this]
+  37                                      (set! (.-state this) clj->js (@state1))
+                                          ^--- set! target must be a field or a symbol naming a var at line 37 C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs
+  38                                      (println @state1)
+  39  
+  40                                      (println (.-state this))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.723 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.582 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.595 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.706 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.859 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.328 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:52  column:15  ----
+
+  Duplicate key: :get-initial-state
+
+  50           [:li (:name user)]
+  51                    )])
+  52  }))
+       ^--- Duplicate key: :get-initial-state
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.511 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.639 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.643 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.609 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.59 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:46  column:29  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-:name
+
+  42                          )
+  43  :render
+  44  (fn [this]
+  45       [:ul (for [user (.. this -state -users)]
+  46           [:li (-:name user)]
+                     ^--- Use of undeclared Var reagent-goldenlayout.core/-:name
+  47                    )])
+  48  }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:46  column:29  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-:name
+
+  42                          )
+  43  :render
+  44  (fn [this]
+  45       [:ul (for [user (.. this -state -users)]
+  46           [:li (-:name user)]
+                     ^--- Use of undeclared Var reagent-goldenlayout.core/-:name
+  47                    )])
+  48  }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.878 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.714 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.56 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.605 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.572 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.734 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.785 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.057 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.588 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.671 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.739 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.613 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.667 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.643 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.61 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.617 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.634 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.625 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.018 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.307 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:47 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 47, col 61] Unmatched delimiter ].
+
+  45  :render
+  46  (fn [this]
+  47       [:ul (for [user (:users @(.. this -store)]
+           C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 47, col 61] Unmatched delimiter ].
+  48           [:li (:name user)]
+  49                    )])
+  50  }))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.725 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.556 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.618 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.717 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.609 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.703 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.603 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.643 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.628 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.595 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.623 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.595 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.681 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.691 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.332 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:59 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 59, col 21] Unmatched delimiter ].
+
+  57                         [User {:key (.name user)
+  58                                :userData user}])
+  59        ])
+            C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 59, col 21] Unmatched delimiter ].
+  60  }))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.696 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.474 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.589 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.658 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.627 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.586 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.678 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.638 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.601 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.606 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.565 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.695 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.591 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.614 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.635 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.625 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.604 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.328 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:30 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 30, col 19] The map literal starting with :user-store on line 16 column 17 contains 7 form(s). Map literals must contain an even number of forms.
+
+  28                                      (fn [this]
+  29                                        [:li (:name (.-user-store this)) ])
+  30                   }))
+                       C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 30, col 19] The map literal starting with :user-store on line 16 column 17 contains 7 form(s). Map literals must contain an even number of forms.
+  31  
+  32  (def state1 (r/atom  {}  ))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.657 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.517 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.725 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:53  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-props
+
+  20                   :display-name "User"
+  21  
+  22                   :get-initial-state (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (.. -props -user-store this))
+                                                          ^--- Use of undeclared Var reagent-goldenlayout.core/-props
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.886 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:53  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-props
+
+  20                   :display-name "User"
+  21  
+  22                   :get-initial-state (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (.. -props -user-store this))
+                                                          ^--- Use of undeclared Var reagent-goldenlayout.core/-props
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.73 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:53  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-props
+
+  20                   :display-name "User"
+  21  
+  22                   :get-initial-state (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (.. -props -mystore this))
+                                                          ^--- Use of undeclared Var reagent-goldenlayout.core/-props
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.937 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:53  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-props
+
+  20                   :display-name "User"
+  21  
+  22                   :get-initial-state (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (.. -props -mystore this))
+                                                          ^--- Use of undeclared Var reagent-goldenlayout.core/-props
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.741 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.57 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.722 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.612 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:49  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-mystore
+
+  20                   :display-name "User"
+  21  
+  22                   :component-did-mount (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (-mystore. this))
+                                                      ^--- Use of undeclared Var reagent-goldenlayout.core/-mystore
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:24  column:49  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-mystore
+
+  20                   :display-name "User"
+  21  
+  22                   :component-did-mount (fn [this]
+  23                                        (println "user init")
+  24                                        (println  (-mystore. this))
+                                                      ^--- Use of undeclared Var reagent-goldenlayout.core/-mystore
+  25                                        (.-user-store this))
+  26  
+  27  
+  28                   :render
+  29                                      (fn [this]
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.075 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.25 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:24  column:49  ----
+
+  Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  22  :component-did-mount (fn [this]
+  23                       (println "user init")
+  24                       (println  (. this -props -mystore ))
+                                     ^--- Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  25                       (.-user-store this))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.325 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:24  column:50  ----
+
+  Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  22  :component-did-mount (fn [this]
+  23                       (println "user init")
+  24                       (println  @(. this -props -mystore ))
+                                      ^--- Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  25                       (.-user-store this))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.389 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:24  column:50  ----
+
+  Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  22  :component-did-mount (fn [this]
+  23                       (println "user init")
+  24                       (println  @(. this -props -mystore ))
+                                      ^--- Unknown dot form of (. this -props (-mystore)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  25                       (.-user-store this))
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.656 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.52 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.559 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.507 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.628 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.37 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:85 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 85, col 1] Unexpected EOF while reading item 8 of list, starting at line 17 and column 3.
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [a b c]
+  17    (let [state (reagent/atom {})]
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  18      (r/create-class
+  19                  {
+  20  
+  21                   :mystore nil
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [a b c]
+  17    (let [state (reagent/atom {})]
+                     ^--- Use of undeclared Var reagent/atom
+  18      (r/create-class
+  19                  {
+  20  
+  21                   :mystore nil
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:63  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  59                                       )
+  60               :render
+  61               (fn [this]
+  62                    [:ul.userlist (for [user (:users @(.. this -store))]
+  63                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  64  
+  65                     ])
+  66               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:63  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  59                                       )
+  60               :render
+  61               (fn [this]
+  62                    [:ul.userlist (for [user (:users @(.. this -store))]
+  63                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  64  
+  65                     ])
+  66               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.958 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.493 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [a b c]
+  17    (let [state (reagent/atom {})]
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [a b c]
+  17    (let [state (reagent/atom {})]
+                     ^--- Use of undeclared Var reagent/atom
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:62  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  58                                       )
+  59               :render
+  60               (fn [this]
+  61                    [:ul.userlist (for [user (:users @(.. this -store))]
+  62                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  63  
+  64                     ])
+  65               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:62  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  58                                       )
+  59               :render
+  60               (fn [this]
+  61                    [:ul.userlist (for [user (:users @(.. this -store))]
+  62                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  63  
+  64                     ])
+  65               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.932 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [user]
+  17    (let [state (reagent/atom {})]
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [user]
+  17    (let [state (reagent/atom {})]
+                     ^--- Use of undeclared Var reagent/atom
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:62  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  58                                       )
+  59               :render
+  60               (fn [this]
+  61                    [:ul.userlist (for [user (:users @(.. this -store))]
+  62                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  63  
+  64                     ])
+  65               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:62  column:34  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/User
+
+  58                                       )
+  59               :render
+  60               (fn [this]
+  61                    [:ul.userlist (for [user (:users @(.. this -store))]
+  62                                  [User {:key (:name user) :mystore (r/atom user )}])
+                                       ^--- Use of undeclared Var reagent-goldenlayout.core/User
+  63  
+  64                     ])
+  65               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.994 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [user]
+  17    (let [state (reagent/atom {})]
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:17  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  13  (def t2 (new js/GoldenLayout config-js))
+  14  
+  15  
+  16  (defn user-component [user]
+  17    (let [state (reagent/atom {})]
+                     ^--- Use of undeclared Var reagent/atom
+  18      (r/create-class
+  19                  {
+  20                   :mystore nil
+  21  
+  22                   :display-name "User"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.846 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.546 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.639 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.626 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.348 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:73 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 73, col 4] Invalid symbol: //.
+
+  71  (defn home-page []
+  72    (println "I am in home page")
+  73   // [UserList]
+       C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 73, col 4] Invalid symbol: //.
+  74    (.registerComponent t2 "user-list" UserList)
+  75    (.init t2)
+  76    )
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.674 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.494 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.65 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.63 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.685 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.593 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.61 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.606 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.644 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.577 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.616 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.372 seconds.
+----  Could not Analyze  src/reagent_goldenlayout/core.cljs   line:68  column:53  ----
+
+  Unknown dot form of (. this -state (-state)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  66               :render
+  67               (fn [this]
+  68                    [:ul.userlist (for [user  (:users (.-state this -state))]
+                                                          ^--- Unknown dot form of (. this -state (-state)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  69                                  [:li {:key (:name user) :mystore (r/atom user )} (:name user)])
+  70  
+  71                     ])
+
+----  Analysis Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.762 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.567 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:44  column:38  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/UserList
+
+  41  (defn home-page []
+  42    (println "I am in home page")
+  43    ;; [UserList]
+  44    (.registerComponent t2 "user-list" UserList)
+                                           ^--- Use of undeclared Var reagent-goldenlayout.core/UserList
+  45    (.init t2)
+  46    )
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.686 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.616 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.564 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:48  column:45  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/store
+
+  44                                      (println (.-state this))
+  45                                      )
+  46               :render
+  47               (fn [this]
+  48                    [:ul (for [user  (:users @store)]
+                                                  ^--- Use of undeclared Var reagent-goldenlayout.core/store
+  49                                  [:li {:key (:name user) :mystore (r/atom user )} (:name user)])
+  50  
+  51                     ])
+  52               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.776 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.581 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.729 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.617 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.344 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:52 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 52, col 15] The map literal starting with :store on line 19 column 13 contains 9 form(s). Map literals must contain an even number of forms.
+
+  51                     ])
+  52               }))
+                   C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 52, col 15] The map literal starting with :store on line 19 column 13 contains 9 form(s). Map literals must contain an even number of forms.
+  53  
+  54  
+  55  (defn home-page []
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.605 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.654 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 4.743 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.011 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.898 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.848 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.856 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.362 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:61 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 61, col 75] The map literal starting with :key on line 61 column 39 contains 3 form(s). Map literals must contain an even number of forms.
+
+  59               (fn [this]
+  60                    [:ul (for [user  (:users (.-state this))]
+  61                                  [User {:key (:name user) (:userData user)}])
+                                      C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 61, col 75] The map literal starting with :key on line 61 column 39 contains 3 form(s). Map literals must contain an even number of forms.
+  62  
+  63                     ])
+  64               }))
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.891 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.593 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 6.525 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.953 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 4.495 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.437 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.349 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.637 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.357 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.268 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.316 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.306 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.43 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.348 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.177 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.279 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.494 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.174 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.307 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.263 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.206 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  19      (reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+                     ^--- Use of undeclared Var reagent/atom
+  19      (reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:19  column:6  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+  19      (reagent/create-class
+           ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+  23  
+  24         ;; note the keyword for this method
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:19  column:6  ----
+
+  Use of undeclared Var reagent/create-class
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+  19      (reagent/create-class
+           ^--- Use of undeclared Var reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+  23  
+  24         ;; note the keyword for this method
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.985 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:16  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+                     ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  19      (reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:18  column:16  ----
+
+  Use of undeclared Var reagent/atom
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+                     ^--- Use of undeclared Var reagent/atom
+  19      (reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:19  column:6  ----
+
+  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+  19      (reagent/create-class
+           ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+  23  
+  24         ;; note the keyword for this method
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:19  column:6  ----
+
+  Use of undeclared Var reagent/create-class
+
+  17  (defn User-component []
+  18    (let [state (reagent/atom {})] ;; you can include state
+  19      (reagent/create-class
+           ^--- Use of undeclared Var reagent/create-class
+  20        {:component-did-mount
+  21                       (fn [] (println "I mounted"))
+  22         :display-name "user-component"
+  23  
+  24         ;; note the keyword for this method
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.699 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.192 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.537 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.241 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.035 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.258 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.966 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.31 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.154 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.08 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.025 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:27  column:75  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/-state
+
+  24         ;; note the keyword for this method
+  25         :reagent-render
+  26                       (fn [user]
+  27                         (this-as this [:div (:name user) [:div (str (nil? (-state this)))]]))
+                                                                                ^--- Use of undeclared Var reagent-goldenlayout.core/-state
+  28         })))
+  29  
+  30  
+  31  (def User (r/create-class
+  32              {
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.201 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.812 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.921 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.26 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:22  column:41  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/this
+
+  18  (let [state (r/atom user)] ;; you can include state
+  19    (r/create-class
+  20      {:component-did-mount
+  21                     (fn [] (println "I mounted")
+  22                       (for [p (.-props this)]
+                                            ^--- Use of undeclared Var reagent-goldenlayout.core/this
+  23                         (println (str "Property:" p))
+  24                         )
+  25                       )
+  26       :display-name "user-component"
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.371 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.183 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.045 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.213 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.256 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.701 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.558 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:84 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 84, col 15] Unmatched delimiter }.
+
+  83                     ])
+  84               }))
+                   C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 84, col 15] Unmatched delimiter }.
+  85  
+  86  
+  87  (defn home-page []
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.148 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.012 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.527 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.246 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.253 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.299 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.201 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.124 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.121 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.123 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.102 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.229 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.148 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.468 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.119 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.185 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.154 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.082 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.132 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.158 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.125 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.209 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.279 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.087 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.095 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.266 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.213 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.201 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.177 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:87  column:33  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/item
+
+  83                                      ))
+  84               :render
+  85               (fn [this]
+  86                    [:ul (for [user  (:users (.-state this))]
+  87                           ^{:key item}[User-component user {:glEventHub (.. this -props -glEventHub) :key (:name user)}])
+                                      ^--- Use of undeclared Var reagent-goldenlayout.core/item
+  88  
+  89                     ])
+  90               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:87  column:33  ----
+
+  Use of undeclared Var reagent-goldenlayout.core/item
+
+  83                                      ))
+  84               :render
+  85               (fn [this]
+  86                    [:ul (for [user  (:users (.-state this))]
+  87                           ^{:key item}[User-component user {:glEventHub (.. this -props -glEventHub) :key (:name user)}])
+                                      ^--- Use of undeclared Var reagent-goldenlayout.core/item
+  88  
+  89                     ])
+  90               }))
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.49 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.2 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.47 seconds.
+----  Could not Read  src/reagent_goldenlayout/core.cljs   line:110 ----
+
+  C:\Code\Script\cs\reagent-goldenlayout\src\reagent_goldenlayout\core.cljs [line 110, col 1] Unexpected EOF while reading item 11 of list, starting at line 9 and column 1.
+
+----  Reader Error : Please see src/reagent_goldenlayout/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.227 seconds.
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.992 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/reagent_goldenlayout/core.cljs   line:12  column:1  ----
+
+  config at line 9 is being replaced
+
+   9  (def config  { :content [{ :type "row", :content [{ :title "Users", :type"react-component", :component "user-list" }
+  10  ,{ :title "User Detail", :type"react-component", :component "user-detail"}]}]})
+  11  
+  12  (def config  { :content [{ :type "row", :content [{ :title "Users", :type"react-component", :component "user-list" }] }] })
+      ^--- config at line 9 is being replaced
+  13  (def config-js (clj->js config))
+  14  
+  15  (def t2 (new js/GoldenLayout config-js))
+  16  
+  17  (def User (r/create-class
+
+----  Compiler Warning : Please see src/reagent_goldenlayout/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.292 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.349 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.252 seconds.
+notifying browser that file changed:  public\js\out\reagent_goldenlayout\core.js
