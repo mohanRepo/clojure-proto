@@ -3,7 +3,8 @@
       [reagent.core :as r]
       [baking-soda.core :as b]
       [reagent-bootstrap.Nav.header-bar :as nav]
-      [reagent-bootstrap.tab.tab-content :as t]))
+      [reagent-bootstrap.tab.tab-content :as t]
+      [reagent-bootstrap.tab.dynamic-tab :as dt]))
 
 ;; -------------------------
 ;; Views
@@ -14,9 +15,6 @@
 
 (defn toggle! [ratom]
   (swap! ratom update :show-modal? not))
-
-
-
 
 
 (defn modal-example [ratom opts]
@@ -67,7 +65,8 @@
 
       [:div  [modal-example app-state {:button-label "Click Me"
                                        :class        "mymodal"}]
-       [:div {:id "tabs1" :style {:height "auto" :width "auto"}}]
+       [:div {:id "tabs1" :style {:height 200 :width 500}}]
+       [dt/tab-static]
 
        ]
 

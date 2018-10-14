@@ -10,6 +10,8 @@
 
 (def user-layout (new js/GoldenLayout config-js "#tabs1"))
 
+
+
 (def current-atom-user (r/atom {}))
 
 (def UserDetail (r/create-class
@@ -73,6 +75,17 @@
       (.registerComponent user-layout "user-detail" UserDetail)
       (.init user-layout)
       )
+
+;;(def user-layout (new js/GoldenLayout config-js "#tabs1"))
+
+(defn push-layout [id]
+  (let [gl  (new js/GoldenLayout config-js id)]
+       (.registerComponent gl "user-list" UserList)
+       (.registerComponent gl "user-detail" UserDetail)
+       (.init gl)
+
+    ))
+
 
 (defn render-tab-content []
       (r/render [tab-content] (.getElementById js/document "tabs-1"))
