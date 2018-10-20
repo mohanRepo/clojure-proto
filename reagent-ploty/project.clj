@@ -36,9 +36,12 @@
                          :foreign-libs  [
                                          {:file     "plotly/plotly-latest.js"
                                           :provides ["js.plotly"]}
-                                         {:file     "plotly/create-plotly-component.js"
+                                         {:file     "plotly/factory.js"
+                                          :provides ["js.plotly.factory"]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}
+                                         {:file     "plotly/react-plotly.js"
                                           :provides ["js.plotly.react"]
-                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly.factory" "js.plotly"]}]
                          :pretty-print  true}
                         :figwheel
                         {:on-jsload "reagent-ploty.core/mount-root"
@@ -53,9 +56,12 @@
                          :foreign-libs  [
                                          {:file     "plotly/plotly-latest.js"
                                           :provides ["js.plotly"]}
-                                         {:file     "plotly/create-plotly-component.js"
+                                         {:file     "plotly/factory.js"
+                                          :provides ["js.plotly.factory"]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}
+                                         {:file     "plotly/react-plotly.js"
                                           :provides ["js.plotly.react"]
-                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly.factory" "js.plotly"]}]
                          :pretty-print false}}}}
 
   :aliases {"package" ["do" "clean" ["cljsbuild" "once" "release"]]}
