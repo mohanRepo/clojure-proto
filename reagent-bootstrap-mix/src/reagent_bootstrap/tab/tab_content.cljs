@@ -2,7 +2,9 @@
   (:require
     [reagent.core :as r]
     [baking-soda.core :as b]
-    [js.goldenlayout]))
+    [cljsjs.ag-grid-react]
+    [js.goldenlayout]
+    [reagent-bootstrap.tab.chart :as chart]))
 
 
 (def config {:content [{:type "row", :content [{:title "Users", :type "react-component", :component "user-list"}, {:title "User Detail", :type "react-component", :component "user-detail"}]}]})
@@ -12,9 +14,43 @@
 
 
 
+
+(def rates [
+            {:tenor "1D" :rate 1 :vol-factor 1}
+            {:tenor "5D" :rate 3 :vol-factor 1.5}
+            {:tenor "1M" :rate 6 :vol-factor .9}
+            {:tenor "6M" :rate 4 :vol-factor 2}
+            {:tenor "1Y" :rate 5 :vol-factor 3}
+            {:tenor "2Y" :rate 2 :vol-factor 2}
+            ])
+
+(def usd-curve {:ccy "USD" :curve_type "Q2" :model "smile"})
+
+(defn get-cols [entry]
+  (into [] (map #(hash-map :headerName (-> % key name) :field (-> % key name)) entry))
+  )
+
+
+(def ag-adapter (r/adapt-react-class (.-AgGridReact js/agGridReact) ))
+
+(defn rates-table []
+  [:div { :style {:height 200 :width 20000 :color "red"}}
+   [ag-adapter {:columnDefs  (get-cols (first rates)) :rowData rates}]]
+
+  )
+
 (def current-atom-user (r/atom {}))
 
 (def UserDetail (r/create-class
+                  {
+
+                   :render                 (fn [this]
+                                             [chart/my-chart]
+                                             )
+
+                   }))
+
+(def UserDetail1 (r/create-class
                   {:component-will-mount   (fn [this]
                                                (let [gl-ev (.. this -props -glEventHub)]
                                                     (.on gl-ev "user-select" (.-setUser this))))
@@ -63,11 +99,7 @@
                                         )
                  :render
                                     (fn [this]
-                                        [:ul (for [user (:users (.-state this))]
-                                                  ^{:key (:name user)} [:li {:style {:color "red"} :onClick #(.selectUser this this user)} (:name user)]
-                                                  )
-
-                                         ])
+                                        [rates-table])
                  }))
 
 (defn tab-content []
@@ -85,14 +117,6 @@
        (.init gl)
 
     ))
-
-
-(defn render-tab-content []
-      (r/render [tab-content] (.getElementById js/document "tabs-1"))
-      )
-
-
-
 
 
 ;; -------------------------

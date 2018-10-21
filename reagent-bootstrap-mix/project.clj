@@ -9,6 +9,8 @@
                  [baking-soda "0.2.0"]
                  [reagent "0.8.1" :exclusions [cljsjs/react
                                                cljsjs/react-dom]]
+                 [cljsjs/ag-grid-react "17.0.0-0"]
+                 [cljsjs/recharts "1.1.0-3"]
                  [cljsjs/react "16.3.2-0"]
                  [cljsjs/react-dom "16.3.2-0"]
                  [cljsjs/react-transition-group "2.3.1-0"]
