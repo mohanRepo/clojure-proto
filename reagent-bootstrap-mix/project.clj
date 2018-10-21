@@ -44,6 +44,11 @@
                          :foreign-libs  [
                                          {:file     "gl/jquery-3.3.1.js"
                                           :provides ["org.jquery.jQuery"]}
+                                         {:file     "plotly/plotly-latest.js"
+                                          :provides ["js.plotly"]}
+                                         {:file     "plotly/create-plotly-component.js"
+                                          :provides ["js.plotly.react"]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}
                                          {:file     "gl/goldenlayout.js"
                                           :provides ["js.goldenlayout"]
                                           :requires ["org.jquery.jQuery"]}]
@@ -61,6 +66,11 @@
                          :foreign-libs  [
                                          {:file     "gl/jquery-3.3.1.js"
                                           :provides ["org.jquery.jQuery"]}
+                                         {:file     "plotly/plotly-latest.js"
+                                          :provides ["js.plotly"]}
+                                         {:file     "plotly/create-plotly-component.js"
+                                          :provides ["js.plotly.react"]
+                                          :requires ["cljsjs.react" "cljsjs.react.dom" "js.plotly"]}
                                          {:file     "gl/goldenlayout.js"
                                           :provides ["js.goldenlayout"]
                                           :requires ["org.jquery.jQuery"]}]

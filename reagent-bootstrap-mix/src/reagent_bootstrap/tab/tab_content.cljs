@@ -4,7 +4,8 @@
     [baking-soda.core :as b]
     [cljsjs.ag-grid-react]
     [js.goldenlayout]
-    [reagent-bootstrap.tab.chart :as chart]))
+    [reagent-bootstrap.tab.chart :as chart]
+    [reagent-bootstrap.tab.chart.plotly :as plotly]))
 
 
 (def config {:content [{:type "row", :content [{:title "Users", :type "react-component", :component "user-list"}, {:title "User Detail", :type "react-component", :component "user-detail"}]}]})
@@ -45,7 +46,8 @@
                   {
 
                    :render                 (fn [this]
-                                             [chart/my-chart]
+                                             ;;[chart/my-chart]
+                                             [plotly/plotly-chart]
                                              )
 
                    }))

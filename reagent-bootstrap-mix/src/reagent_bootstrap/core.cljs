@@ -88,8 +88,8 @@
 (defn mount-root []
   (r/render [page]
             (.getElementById js/document "app"))
-  ;;(t/tab-content)
-  (mix/other-fun)
+  (t/tab-content)
+  ;;(mix/other-fun)
       )
 
 (defn mount-root-1 []
