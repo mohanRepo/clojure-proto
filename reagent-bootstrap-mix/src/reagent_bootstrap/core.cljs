@@ -65,7 +65,7 @@
 (defn page-body []
 
 
-  ;;(mix/other-fun)
+
       [:div  [modal-example app-state {:button-label "Click Me"
                                        :class        "mymodal"}]
         [:div {:id "tabs1" :style {:height 200 :width 500}}]
@@ -88,7 +88,8 @@
 (defn mount-root []
   (r/render [page]
             (.getElementById js/document "app"))
-      (t/tab-content)
+  ;;(t/tab-content)
+  (mix/other-fun)
       )
 
 (defn mount-root-1 []

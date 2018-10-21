@@ -25,11 +25,13 @@
     <orderEntry type="library" name="Leiningen: cider/piggieback:0.3.8" level="project" />
     <orderEntry type="library" name="Leiningen: clj-stacktrace:0.2.8" level="project" />
     <orderEntry type="library" name="Leiningen: clj-time:0.11.0" level="project" />
+    <orderEntry type="library" name="Leiningen: cljsjs/ag-grid-react:17.0.0-0" level="project" />
+    <orderEntry type="library" name="Leiningen: cljsjs/ag-grid:15.0.0-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/bootstrap:3.3.6-1" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/create-react-class:15.6.3-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/jquery:1.9.1-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/popperjs:1.14.3-1" level="project" />
-    <orderEntry type="library" name="Leiningen: cljsjs/prop-types:15.6.1-0" level="project" />
+    <orderEntry type="library" name="Leiningen: cljsjs/prop-types:15.6.0-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/react-bootstrap:0.31.5-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/react-dom-server:16.3.2-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/react-dom:16.3.2-0" level="project" />
@@ -37,6 +39,7 @@
     <orderEntry type="library" name="Leiningen: cljsjs/react-transition-group:2.3.1-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/react:16.3.2-0" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/reactstrap:6.0.1-0" level="project" />
+    <orderEntry type="library" name="Leiningen: cljsjs/recharts:1.1.0-3" level="project" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
     <orderEntry type="library" name="Leiningen: co.deps/ring-etag-middleware:0.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/transit-clj:0.8.309" level="project" />

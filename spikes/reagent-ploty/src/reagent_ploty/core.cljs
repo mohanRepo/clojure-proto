@@ -10,14 +10,12 @@
 (enable-console-print!)
 
 ;;(def plot-comp (r/adapt-react-class js/createPlotlyComponent))
+;;(def p js/Plotly)
+;;(def plot (.-plot p))
+;;(def plot-comp (r/adapt-react-class js/createPlotlyComponent))
+;;(def plotly (r/adapt-react-class js/Plotly))
 
-(def p js/Plotly)
-
-(def plot (.-plot p))
-
-(def plotly (r/adapt-react-class js/Plotly))
-
-;;(def Plot (new js/createPlotlyComponent js/Plotly))
+(def Plot (r/adapt-react-class (js/createPlotlyComponent js/Plotly)))
 
 (def data1 (clj->js [
                      {:x [1, 2, 3] :y [2, 6, 3] :type "scatter" :mode "lines+points" :marker {:color "red"}}
@@ -29,20 +27,28 @@
 
 ;;(println data1)
 ;;(println layout1)
-
 ;;(println "test")
+
+(def UserDetail (r/create-class
+                  {
+
+                   :render                 (fn [this]
+                                             [Plot {:data data1 :layout layout1}]
+                                             )
+
+                   }))
 
 
 (defn home-page []
   [:div [:h2 "Welcome to Reagent"]
-   [plot {:data data1 :layout layout1}]
+   ;;[plot {:data data1 :layout layout1}]
    ])
 
 ;; -------------------------
 ;; Initialize app
 
 (defn mount-root []
-  (r/render [home-page] (.getElementById js/document "app")))
+  (r/render [Plot {:data data1 :layout layout1}] (.getElementById js/document "app")))
 
 (defn init! []
   (mount-root))

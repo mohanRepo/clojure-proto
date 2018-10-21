@@ -6,10 +6,10 @@
 
 
 
-(def config {:content [{:type "row", :content [{:title "Rates", :type "react-component", :component "rates"}]}]})
+(def config {:content [{:type "row", :content [{:title "Rates", :type "react-component", :component "curve-rates"}]}]})
 (def config-js (clj->js config))
 
-(def curve-layout (new js/GoldenLayout config-js "#tabcontent"))
+(def curve-layout (new js/GoldenLayout config-js "#tabs1"))
 
 (def rates [
             {:tenor "1D" :rate 1 :vol-factor 1}
@@ -56,7 +56,7 @@
 
 
 (defn other-fun []
-  (.registerComponent curve-layout "rates" UserDetail)
+  (.registerComponent curve-layout "curve-rates" UserDetail)
   (.init curve-layout)
   )
 
